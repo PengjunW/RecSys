@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 
 def loadData():
-    path = './dataset/ml-latest-small/ratings.csv'
+    path = '../../dataset/ml-latest-small/ratings.csv'
     data = pd.read_csv(path, usecols=[0, 1])
     user_dict = dict()
     item_dict=dict()
